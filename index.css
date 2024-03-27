@@ -1,0 +1,38 @@
+.navbar {
+  margin-inline: 3rem;
+  list-style-type: none;
+  padding-inline: .8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  text-decoration: none;
+  cursor: pointer;
+  padding-inline: 1.5rem;
+}
+
+.table-user {
+  background-color: beige;
+  border: 1px, solid, silver;
+  border-collapse: collapse;
+}
+
+.table-user td, th {
+  border: 1px solid red;
+  padding: .5rem;
+  padding-inline: .8rem;
+  text-align: center;
+}
+
+.try-gradient {
+  width: 600px;
+  background:linear-gradient(to bottom, blue 50%, white 50%) ;
+}
+
+.try-gradient-text {
+  text-align: center;
+  background: linear-gradient(to top, blue 50%, white 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
